@@ -3,8 +3,8 @@
 // For local testing: use localhost (server must be running)
 // For production:    swap to your HF Space URL below
 // =========================================================
-const API_URL = "http://localhost:8000";
-// const API_URL = "https://YOUR-USERNAME-YOUR-SPACE-NAME.hf.space"; // ← uncomment after deploying to HF
+const API_URL = "https://ayushmishra01-chatbot-intern.hf.space";
+// const API_URL = "http://localhost:8000"; // ← uncomment for local testing
 
 // Generate a stable user ID per browser session
 const USER_ID = sessionStorage.getItem("thinkhub_uid") || (() => {
